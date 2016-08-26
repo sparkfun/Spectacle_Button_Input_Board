@@ -152,7 +152,7 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
-<schematic xreflabel="%F%N/%S" xrefpart="1_/%S.%C%R">
+<schematic xreflabel="%F%N/%S" xrefpart="/%S.%C%R">
 <libraries>
 <library name="SparkFun-Aesthetics">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
@@ -1400,6 +1400,20 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="4" y1="3.3" x2="5.4" y2="3.3" width="0.254" layer="21"/>
 <wire x1="0.5" y1="3.3" x2="2.4" y2="3.3" width="0.254" layer="21"/>
 </package>
+<package name="1X02_POKEHOME">
+<description>2 pin poke-home connector
+
+part number 2062-2P from STA</description>
+<wire x1="-7" y1="-4" x2="-7" y2="2" width="0.2032" layer="21"/>
+<wire x1="-7" y1="2" x2="-7" y2="4" width="0.2032" layer="21"/>
+<wire x1="4.7" y1="4" x2="4.7" y2="-4" width="0.2032" layer="21"/>
+<wire x1="4.7" y1="-4" x2="-7" y2="-4" width="0.2032" layer="21"/>
+<smd name="P2" x="5.25" y="-2" dx="3.5" dy="2" layer="1"/>
+<smd name="P1" x="5.25" y="2" dx="3.5" dy="2" layer="1"/>
+<smd name="P4" x="-4" y="-2" dx="6" dy="2" layer="1"/>
+<smd name="P3" x="-4" y="2" dx="6" dy="2" layer="1"/>
+<wire x1="-7" y1="4" x2="4.7" y2="4" width="0.2032" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="M02">
@@ -1704,6 +1718,17 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+<device name="SMALL_POKEHOME" package="1X02_POKEHOME">
+<connects>
+<connect gate="G$1" pin="1" pad="P1 P3"/>
+<connect gate="G$1" pin="2" pad="P2 P4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-#####" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -2578,14 +2603,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J6" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="J7" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="J8" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
-<part name="J9" library="SparkFun-Connectors" deviceset="M02" device="3.5MM_LOCK"/>
-<part name="J10" library="SparkFun-Connectors" deviceset="M02" device="3.5MM_LOCK"/>
-<part name="J11" library="SparkFun-Connectors" deviceset="M02" device="3.5MM_LOCK"/>
-<part name="J12" library="SparkFun-Connectors" deviceset="M02" device="3.5MM_LOCK"/>
-<part name="J13" library="SparkFun-Connectors" deviceset="M02" device="3.5MM_LOCK"/>
-<part name="J14" library="SparkFun-Connectors" deviceset="M02" device="3.5MM_LOCK"/>
-<part name="J15" library="SparkFun-Connectors" deviceset="M02" device="3.5MM_LOCK"/>
-<part name="J16" library="SparkFun-Connectors" deviceset="M02" device="3.5MM_LOCK"/>
+<part name="J9" library="SparkFun-Connectors" deviceset="M02" device="SMALL_POKEHOME"/>
+<part name="J10" library="SparkFun-Connectors" deviceset="M02" device="SMALL_POKEHOME"/>
+<part name="J11" library="SparkFun-Connectors" deviceset="M02" device="SMALL_POKEHOME"/>
+<part name="J12" library="SparkFun-Connectors" deviceset="M02" device="SMALL_POKEHOME"/>
+<part name="J13" library="SparkFun-Connectors" deviceset="M02" device="SMALL_POKEHOME"/>
+<part name="J14" library="SparkFun-Connectors" deviceset="M02" device="SMALL_POKEHOME"/>
+<part name="J15" library="SparkFun-Connectors" deviceset="M02" device="SMALL_POKEHOME"/>
+<part name="J16" library="SparkFun-Connectors" deviceset="M02" device="SMALL_POKEHOME"/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
