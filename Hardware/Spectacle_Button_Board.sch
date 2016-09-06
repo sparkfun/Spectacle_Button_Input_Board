@@ -2665,6 +2665,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY12" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY13" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY14" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
+<part name="J20" library="SparkFun-Connectors" deviceset="AUDIO-JACK3" device=""/>
+<part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2779,6 +2781,8 @@ Supply</text>
 <instance part="SUPPLY12" gate="G$1" x="48.26" y="121.92"/>
 <instance part="SUPPLY13" gate="G$1" x="205.74" y="101.6"/>
 <instance part="SUPPLY14" gate="G$1" x="228.6" y="137.16"/>
+<instance part="J20" gate="G$1" x="175.26" y="55.88"/>
+<instance part="GND21" gate="1" x="187.96" y="45.72"/>
 </instances>
 <busses>
 </busses>
@@ -2976,6 +2980,12 @@ Supply</text>
 <junction x="226.06" y="45.72"/>
 <pinref part="D4" gate="G$1" pin="3"/>
 <wire x1="226.06" y1="63.5" x2="223.52" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J20" gate="G$1" pin="RING2"/>
+<pinref part="GND21" gate="1" pin="GND"/>
+<wire x1="180.34" y1="50.8" x2="187.96" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="50.8" x2="187.96" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IN_0" class="0">
@@ -3224,9 +3234,15 @@ Supply</text>
 <wire x1="180.34" y1="78.74" x2="190.5" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="78.74" x2="195.58" y2="78.74" width="0.1524" layer="91"/>
 <junction x="190.5" y="78.74"/>
-<wire x1="195.58" y1="78.74" x2="195.58" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="78.74" x2="195.58" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="D5" gate="G$1" pin="1"/>
+<wire x1="195.58" y1="58.42" x2="195.58" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="48.26" x2="203.2" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="J20" gate="G$1" pin="EARTH"/>
+<wire x1="180.34" y1="60.96" x2="185.42" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="60.96" x2="185.42" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="58.42" x2="195.58" y2="58.42" width="0.1524" layer="91"/>
+<junction x="195.58" y="58.42"/>
 </segment>
 </net>
 <net name="N$2" class="0">
