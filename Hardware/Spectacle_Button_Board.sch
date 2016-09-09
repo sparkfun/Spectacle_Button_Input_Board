@@ -152,7 +152,7 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
-<schematic xreflabel="%F%N/%S" xrefpart="/%S.%C%R">
+<schematic xreflabel="%F%N/%S" xrefpart="1_/%S.%C%R">
 <libraries>
 <library name="SparkFun-Aesthetics">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
@@ -18681,8 +18681,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="M"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
-<part name="LOGO3" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
-<part name="LOGO4" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="M"/>
 </parts>
 <sheets>
 <sheet>
@@ -18799,10 +18797,8 @@ Supply</text>
 <instance part="SUPPLY14" gate="G$1" x="228.6" y="137.16"/>
 <instance part="J20" gate="G$1" x="175.26" y="55.88"/>
 <instance part="GND21" gate="1" x="187.96" y="45.72"/>
-<instance part="LOGO1" gate="G$1" x="124.46" y="12.7"/>
+<instance part="LOGO1" gate="G$1" x="127" y="15.24"/>
 <instance part="LOGO2" gate="G$1" x="50.8" y="0"/>
-<instance part="LOGO3" gate="G$1" x="-7.62" y="-2.54"/>
-<instance part="LOGO4" gate="G$1" x="10.16" y="20.32"/>
 </instances>
 <busses>
 </busses>
