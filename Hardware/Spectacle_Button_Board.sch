@@ -17771,7 +17771,7 @@ part number 2062-2P from STA</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="CONN-#####" constant="no"/>
+<attribute name="PROD_ID" value="CONN-13512"/>
 </technology>
 </technologies>
 </device>
@@ -18721,10 +18721,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="2.54" y="68.58" size="1.778" layer="97">3.5mm screw
-terminals</text>
-<text x="2.54" y="38.1" size="1.778" layer="97">3.5mm screw
-terminals</text>
+<text x="2.54" y="68.58" size="1.778" layer="97">pokehome
+connector</text>
 <text x="2.54" y="83.82" size="1.778" layer="97">0.1" through
 hole headers</text>
 <text x="2.54" y="53.34" size="1.778" layer="97">0.1" through
@@ -18749,6 +18747,8 @@ Supply</text>
 <text x="165.1" y="7.62" size="2.54" layer="94">Dia Campbell/Mike Hord</text>
 <text x="238.76" y="7.62" size="2.54" layer="94">01</text>
 <text x="2.794" y="95.758" size="1.778" layer="97">VIN 4-6V</text>
+<text x="2.54" y="38.1" size="1.778" layer="97">pokehome
+connector</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>

@@ -3011,28 +3011,28 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="J7" library="SparkFun-Connectors" package="1X02" value="" x="17.145" y="6.604" rot="R270"/>
 <element name="J8" library="SparkFun-Connectors" package="1X02" value="" x="17.145" y="16.383" rot="R270"/>
 <element name="J9" library="SparkFun-Connectors" package="1X02_POKEHOME" value="" x="36.83" y="58.42" rot="R180">
-<attribute name="PROD_ID" value="CONN-#####" x="36.83" y="58.42" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="CONN-13512" x="36.83" y="58.42" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="J10" library="SparkFun-Connectors" package="1X02_POKEHOME" value="" x="36.83" y="68.58" rot="R180">
-<attribute name="PROD_ID" value="CONN-#####" x="36.83" y="68.58" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="CONN-13512" x="36.83" y="68.58" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="J11" library="SparkFun-Connectors" package="1X02_POKEHOME" value="" x="7.62" y="68.58">
-<attribute name="PROD_ID" value="CONN-#####" x="7.62" y="68.58" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="CONN-13512" x="7.62" y="68.58" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
 <element name="J12" library="SparkFun-Connectors" package="1X02_POKEHOME" value="" x="7.62" y="58.42">
-<attribute name="PROD_ID" value="CONN-#####" x="7.62" y="58.42" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="CONN-13512" x="7.62" y="58.42" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
 <element name="J13" library="SparkFun-Connectors" package="1X02_POKEHOME" value="" x="36.83" y="15.24" rot="R180">
-<attribute name="PROD_ID" value="CONN-#####" x="36.83" y="15.24" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="CONN-13512" x="36.83" y="15.24" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="J14" library="SparkFun-Connectors" package="1X02_POKEHOME" value="" x="36.83" y="5.08" rot="R180">
-<attribute name="PROD_ID" value="CONN-#####" x="36.83" y="5.08" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="CONN-13512" x="36.83" y="5.08" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="J15" library="SparkFun-Connectors" package="1X02_POKEHOME" value="" x="7.62" y="5.08">
-<attribute name="PROD_ID" value="CONN-#####" x="7.62" y="5.08" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="CONN-13512" x="7.62" y="5.08" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
 <element name="J16" library="SparkFun-Connectors" package="1X02_POKEHOME" value="" x="7.62" y="15.24">
-<attribute name="PROD_ID" value="CONN-#####" x="7.62" y="15.24" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="CONN-13512" x="7.62" y="15.24" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
 <element name="R1" library="SparkFun-Resistors" package="0603-RES" value="10K" x="24.003" y="47.879" rot="R180">
 <attribute name="PROD_ID" value="RES-00824" x="24.003" y="47.879" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
