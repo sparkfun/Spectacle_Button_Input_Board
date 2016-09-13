@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -152,7 +152,7 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
-<schematic xreflabel="%F%N/%S" xrefpart="1_/%S.%C%R">
+<schematic xreflabel="%F%N/%S" xrefpart="/%S.%C%R">
 <libraries>
 <library name="SparkFun-Aesthetics">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
@@ -18805,7 +18805,10 @@ Supply</text>
 </instance>
 <instance part="J18" gate="G$1" x="218.44" y="127"/>
 <instance part="GND10" gate="1" x="233.68" y="116.84"/>
-<instance part="J19" gate="G$1" x="137.16" y="129.54" rot="MR0"/>
+<instance part="J19" gate="G$1" x="137.16" y="129.54" smashed="yes" rot="MR0">
+<attribute name="NAME" x="137.16" y="141.224" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="137.16" y="137.922" size="1.778" layer="96" rot="MR0"/>
+</instance>
 <instance part="GND11" gate="1" x="144.78" y="116.84"/>
 <instance part="D2" gate="G$1" x="86.36" y="157.48"/>
 <instance part="SW1" gate="G$1" x="38.1" y="144.78" rot="R270"/>
@@ -19313,7 +19316,8 @@ Supply</text>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="198.12" y1="78.74" x2="198.12" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="76.2" x2="172.72" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="76.2" x2="190.5" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="76.2" x2="172.72" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="76.2" x2="200.66" y2="76.2" width="0.1524" layer="91"/>
 <junction x="198.12" y="76.2"/>
 <label x="215.9" y="76.2" size="1.27" layer="95" xref="yes"/>
@@ -19323,6 +19327,10 @@ Supply</text>
 <wire x1="203.2" y1="66.04" x2="200.66" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="66.04" x2="200.66" y2="76.2" width="0.1524" layer="91"/>
 <junction x="200.66" y="76.2"/>
+<pinref part="J20" gate="G$1" pin="RING1"/>
+<wire x1="172.72" y1="55.88" x2="190.5" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="55.88" x2="190.5" y2="76.2" width="0.1524" layer="91"/>
+<junction x="190.5" y="76.2"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G0" pin="P1.0"/>
@@ -19336,8 +19344,7 @@ Supply</text>
 <wire x1="213.36" y1="78.74" x2="213.36" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="73.66" x2="198.12" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="73.66" x2="193.04" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="73.66" x2="190.5" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="73.66" x2="185.42" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="73.66" x2="185.42" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="73.66" x2="215.9" y2="73.66" width="0.1524" layer="91"/>
 <junction x="213.36" y="73.66"/>
 <label x="215.9" y="73.66" size="1.27" layer="95" xref="yes"/>
@@ -19352,10 +19359,6 @@ Supply</text>
 <wire x1="172.72" y1="50.8" x2="193.04" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="50.8" x2="193.04" y2="73.66" width="0.1524" layer="91"/>
 <junction x="193.04" y="73.66"/>
-<pinref part="J20" gate="G$1" pin="RING1"/>
-<wire x1="172.72" y1="55.88" x2="190.5" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="55.88" x2="190.5" y2="73.66" width="0.1524" layer="91"/>
-<junction x="190.5" y="73.66"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G0" pin="P1.1"/>
