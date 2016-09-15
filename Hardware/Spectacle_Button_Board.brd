@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -30,7 +30,7 @@
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -1234,6 +1234,10 @@ Button Input Board</text>
 <text x="26.924" y="50.927" size="0.8128" layer="21" font="vector" ratio="15">PWR</text>
 <text x="28.575" y="34.163" size="0.8128" layer="21" font="vector" ratio="15">RESET</text>
 <text x="33.401" y="33.909" size="1.778" layer="21" font="vector" ratio="15">9</text>
+<rectangle x1="23.85" y1="38.4" x2="24.39" y2="38.75" layer="41"/>
+<rectangle x1="22.22" y1="36.54" x2="22.56" y2="37.12" layer="41"/>
+<rectangle x1="23.87" y1="34.91" x2="24.39" y2="35.26" layer="41"/>
+<rectangle x1="25.7" y1="36.56" x2="26.04" y2="37.1" layer="41"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -3802,42 +3806,46 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </signal>
 </signals>
 <errors>
-<approved hash="19,1,33640150382e0a1a"/>
-<approved hash="19,1,8abdb889b89d8aa9"/>
-<approved hash="19,1,957da749a45d9669"/>
-<approved hash="19,1,0c843eb03aee08da"/>
 <approved hash="19,1,06dc34e83a320806"/>
+<approved hash="19,1,0c843eb03aee08da"/>
+<approved hash="19,1,8abdb889b89d8aa9"/>
+<approved hash="19,1,33640150382e0a1a"/>
+<approved hash="19,1,8aa7b893baef88db"/>
+<approved hash="19,1,957da749a45d9669"/>
 <approved hash="19,1,079c35a83bea09de"/>
 <approved hash="19,1,8dd7bfe3b83f8a0b"/>
-<approved hash="19,1,8aa7b893baef88db"/>
-<approved hash="19,1,c2c3f4f7f4fec2ca"/>
+<approved hash="19,1,4ea2789676514065"/>
+<approved hash="19,1,c5a9f39df45cc268"/>
+<approved hash="19,1,4fe279d6778941bd"/>
+<approved hash="19,1,dd03eb37e83ede0a"/>
 <approved hash="19,1,c2d9f4edf68cc0b8"/>
 <approved hash="19,1,44fa72ce768d40b9"/>
 <approved hash="19,1,7b1a4d2e744d4279"/>
-<approved hash="19,1,4ea2789676514065"/>
-<approved hash="19,1,c5a9f39df45cc268"/>
-<approved hash="19,1,dd03eb37e83ede0a"/>
-<approved hash="19,1,4fe279d6778941bd"/>
+<approved hash="19,1,c2c3f4f7f4fec2ca"/>
+<approved hash="6,1,9d2e93c593c59d2e"/>
 <approved hash="19,1,977c874480d890e0"/>
+<approved hash="6,1,ec728f74cf77ac71"/>
+<approved hash="6,1,bbdf21d0e1d37bdc"/>
+<approved hash="6,1,361acff9cff9361a"/>
 <approved hash="19,1,08cd6d1db4eac73f"/>
-<approved hash="19,1,9ed3c8e7c6239017"/>
-<approved hash="19,1,15d843ec442e121a"/>
-<approved hash="19,1,9f93c9a7c7fb91cf"/>
-<approved hash="19,1,12a8449c46fe10ca"/>
-<approved hash="19,1,948bc2bfc6ff90cb"/>
-<approved hash="19,1,ab6bfd5fc43f920b"/>
 <approved hash="19,1,12b24486448c12b8"/>
+<approved hash="19,1,15d843ec442e121a"/>
+<approved hash="19,1,ab6bfd5fc43f920b"/>
+<approved hash="19,1,948bc2bfc6ff90cb"/>
+<approved hash="19,1,12a8449c46fe10ca"/>
+<approved hash="19,1,9ed3c8e7c6239017"/>
+<approved hash="19,1,9f93c9a7c7fb91cf"/>
 <approved hash="19,1,0d725b46584c0e78"/>
 <approved hash="19,1,f9c32db6238e2efa"/>
 <approved hash="19,1,c24e37e50e60bacf"/>
-<approved hash="19,1,aa9d4ca94af2acc6"/>
-<approved hash="19,1,b17d57495442b276"/>
-<approved hash="19,1,a18747b349feafca"/>
-<approved hash="19,1,22dcc4e8ca232c17"/>
-<approved hash="19,1,1764f150c8312e05"/>
-<approved hash="19,1,aebd48894882aeb6"/>
 <approved hash="19,1,aea748934afeacca"/>
+<approved hash="19,1,1764f150c8312e05"/>
+<approved hash="19,1,b17d57495442b276"/>
+<approved hash="19,1,22dcc4e8ca232c17"/>
+<approved hash="19,1,aa9d4ca94af2acc6"/>
 <approved hash="19,1,a9d74fe3482eae1a"/>
+<approved hash="19,1,aebd48894882aeb6"/>
+<approved hash="19,1,a18747b349feafca"/>
 </errors>
 </board>
 </drawing>
