@@ -3014,11 +3014,11 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="C6" library="SparkFun-Capacitors" package="0402-CAP" value="0.1uF" x="20.066" y="25.4" rot="R270">
 <attribute name="PROD_ID" value="CAP-12416" x="20.066" y="25.4" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
-<element name="R3" library="SparkFun-Resistors" package="0603-RES" value="2.2k" x="20.574" y="31.623" rot="R270">
-<attribute name="PROD_ID" value="RES-08272" x="20.574" y="31.623" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<element name="R3" library="SparkFun-Resistors" package="0603-RES" value="4.7K" x="20.574" y="31.623" rot="R270">
+<attribute name="PROD_ID" value="RES-07857" x="20.574" y="31.623" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
-<element name="R4" library="SparkFun-Resistors" package="0603-RES" value="2.2k" x="17.78" y="31.623" rot="R270">
-<attribute name="PROD_ID" value="RES-08272" x="17.78" y="31.623" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<element name="R4" library="SparkFun-Resistors" package="0603-RES" value="4.7K" x="17.78" y="31.623" rot="R270">
+<attribute name="PROD_ID" value="RES-07857" x="17.78" y="31.623" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
 <element name="JP1" library="SparkFun-Passives" package="PAD-JUMPER-3-NC_BY_PASTE_YES_SILK_FULL_BOX" value="JUMPER-PAD-3-NC_BY_PASTE" x="19.177" y="28.575"/>
 <element name="J18" library="SparkFun-Connectors" package="1X05_NO_SILK" value="" x="43.18" y="50.8" rot="R270"/>
