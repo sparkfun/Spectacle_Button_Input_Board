@@ -1,0 +1,16 @@
+--------------- Rebuild Started: 09/22/2016 10:14:25 Project: main.c, Configuration: ARM GCC 4.9-2015-q1-update Debug ---------------
+arm-none-eabi-gcc.exe -mcpu=cortex-m0plus -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0p\ARM_GCC_493\Debug/main.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\main.c -o .\CortexM0p\ARM_GCC_493\Debug\main.o
+.\main.c: In function 'main':
+.\main.c:66:13: warning: unused variable 'vectorMagnitude' [-Wunused-variable]
+       int32 vectorMagnitude = 0;
+             ^
+.\main.c:45:7: warning: unused variable 'zMag' [-Wunused-variable]
+   int zMag = 0;
+       ^
+.\main.c:44:7: warning: unused variable 'yMag' [-Wunused-variable]
+   int yMag = 0;
+       ^
+.\main.c:43:7: warning: unused variable 'xMag' [-Wunused-variable]
+   int xMag = 0;
+       ^
+--------------- Rebuild Succeeded: 09/22/2016 10:14:26 ---------------
