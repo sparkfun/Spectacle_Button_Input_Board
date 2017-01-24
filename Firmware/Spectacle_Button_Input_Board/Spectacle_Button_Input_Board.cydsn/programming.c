@@ -1,3 +1,20 @@
+/****************************************************************************
+programming.c
+Code for receiving behavioral programming from the director board
+Mike Hord @ SparkFun Electronics
+24 Jan 2017
+https://github.com/sparkfun/Spectacle_Button_Input_Board
+
+Contains the code that interacts with the director board for programming the
+behaviors into the daughter board. 
+
+Development environment specifics:
+Developed in PSoC Creator 4.0
+
+This code is beerware; if you see me (or any other SparkFun employee) at the
+local, and you've found our code helpful, please buy us a round!
+****************************************************************************/
+
 #include <project.h>
 #include <stdlib.h>
 #include <stdio.h>

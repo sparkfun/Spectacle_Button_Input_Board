@@ -1,3 +1,20 @@
+/****************************************************************************
+main.c
+Main code file for Spectacle button input board project
+Mike Hord @ SparkFun Electronics
+24 Jan 2017
+https://github.com/sparkfun/Spectacle_Button_Input_Board
+
+This file includes main(), which configures the hardware for the system as
+well as monitoring the data coming from the director board.
+
+Development environment specifics:
+Developed in PSoC Creator 4.0
+
+This code is beerware; if you see me (or any other SparkFun employee) at the
+local, and you've found our code helpful, please buy us a round!
+****************************************************************************/
+
 #include <project.h>
 #include <stdbool.h>
 #include <math.h>
@@ -53,6 +70,11 @@ int main()
 
   behaviors = malloc(64*sizeof(struct button));
   I2C_Mem = (uint8*)mailboxes;
+
+  I2C_Mem[PROG_ENABLE_REG] = 0;
+  I2C_Mem[PROG_READY_REG] = 0;
+  I2C_Mem[DATA_READY_REG] = 0;
+  I2C_Mem[BOARD_ID_REG] = BOARD_ID;
   
   int32 _100HzTick = 0;
   int32 _2HzTick = 0;

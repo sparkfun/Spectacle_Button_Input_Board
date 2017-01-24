@@ -37,11 +37,9 @@
       <Folder BuildType="STRICT" Path="C:\Dropbox\Projects\Spectacle\Spectacle_Button_Input_Board\Firmware\Spectacle_Button_Input_Board\Spectacle_Button_Input_Board.cydsn">
         <Files Root="C:\Dropbox\Projects\Spectacle\Spectacle_Button_Input_Board\Firmware\Spectacle_Button_Input_Board\Spectacle_Button_Input_Board.cydsn">
           <File BuildType="BUILD" Toolchain="">main.c</File>
-          <File BuildType="BUILD" Toolchain="">debug.c</File>
           <File BuildType="BUILD" Toolchain="">programming.c</File>
           <File BuildType="BUILD" Toolchain="">cyapicallbacks.h</File>
           <File BuildType="BUILD" Toolchain="">spectacle.h</File>
-          <File BuildType="BUILD" Toolchain="">debug.h</File>
           <File BuildType="BUILD" Toolchain="">programming.h</File>
           <File BuildType="BUILD" Toolchain="">button.h</File>
         </Files>
