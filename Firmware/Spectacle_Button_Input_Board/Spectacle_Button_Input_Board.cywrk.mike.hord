@@ -229,52 +229,6 @@
 <VisibleNodeIds>
 <v>Spectacle_Button_Input_Board</v>
 <v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\B_0.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\B_0_PM.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\B_1.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\B_1_PM.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\B_2.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\B_2_PM.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\B_3.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\B_3_PM.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\B_4.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\B_4_PM.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\B_5.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\B_5_PM.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\B_6.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\B_6_PM.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\B_7.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\B_7_PM.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\B_8.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\B_8_PM.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\Cm0plusStart.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\CyLFClk.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C_BOOT.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C_EZI2C.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C_EZI2C_BOOT.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C_EZI2C_INT.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C_PM.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C_SCB_IRQ.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C_SCBCLK.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C_scl.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C_scl_PM.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C_sda.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\EZI2C_sda_PM.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\I2C_OUT_EN.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\I2C_OUT_EN_PM.lst</v>
-<v>Spectacle_Button_Input_Board\Spectacle_Button_Input_Board\CortexM0p\ARM_GCC_493\Debug\Listing Files\LED.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>

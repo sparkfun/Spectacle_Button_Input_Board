@@ -19,12 +19,15 @@ local, and you've found our code helpful, please buy us a round!
 #define __servo_h_
 #include <project.h>  
 
+#define USER_DATA_LEN 3
+    
 #pragma pack(1)
 struct button
 {
   uint8 channel;
   uint8 mode;
   uint8 button;
+    // End of user programmable data
   uint8 pressed;
   uint8 released;
   uint8 latched;
