@@ -19872,7 +19872,7 @@ Data/Power</text>
 <text x="96.52" y="172.72" size="3.81" layer="97">Power
 Supply</text>
 <text x="165.1" y="7.62" size="2.54" layer="94">Dia Campbell/Mike Hord</text>
-<text x="238.76" y="7.62" size="2.54" layer="94">10</text>
+<text x="238.76" y="7.62" size="2.54" layer="94">v10</text>
 <text x="2.794" y="95.758" size="1.778" layer="97">VIN 4-6V</text>
 <text x="2.54" y="38.1" size="1.778" layer="97">pokehome
 connector</text>
