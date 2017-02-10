@@ -9,8 +9,8 @@
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -154,10 +154,7 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="73.66" x2="0" y2="0" width="0.2032" layer="20"/>
-<wire x1="0" y1="0" x2="44.45" y2="0" width="0.2032" layer="20"/>
-<wire x1="44.45" y1="0" x2="44.45" y2="73.66" width="0.2032" layer="20"/>
-<wire x1="0" y1="73.66" x2="44.45" y2="73.66" width="0.2032" layer="20"/>
+<wire x1="0" y1="72.39" x2="0" y2="1.27" width="0.2032" layer="20"/>
 <dimension x1="0" y1="73.66" x2="44.45" y2="73.66" x3="22.225" y3="78.74" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="44.45" y1="73.66" x2="44.45" y2="0" x3="50.8" y3="36.83" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <text x="29.21" y="68.58" size="1.778" layer="21" font="vector" ratio="15" align="center">1</text>
@@ -1148,6 +1145,9 @@ Button Input Board</text>
 <text x="21.209" y="48.133" size="0.8128" layer="21" font="vector" ratio="15" align="center">RESET</text>
 <text x="9.779" y="32.893" size="1.778" layer="21" font="vector" ratio="15" rot="R180">In</text>
 <text x="10.287" y="43.434" size="1.778" layer="21" font="vector" ratio="15" rot="R180">Out</text>
+<wire x1="1.524" y1="0" x2="43.18" y2="0" width="0.2032" layer="20"/>
+<wire x1="44.45" y1="1.27" x2="44.45" y2="72.39" width="0.2032" layer="20"/>
+<wire x1="1.27" y1="73.66" x2="43.18" y2="73.66" width="0.2032" layer="20"/>
 <wire x1="5.715" y1="43.561" x2="5.715" y2="41.783" width="0.254" layer="21"/>
 <wire x1="5.715" y1="41.783" x2="6.096" y2="41.402" width="0.254" layer="21"/>
 <wire x1="6.858" y1="33.02" x2="6.858" y2="30.988" width="0.254" layer="21"/>
@@ -1163,6 +1163,11 @@ Button Input Board</text>
 <dimension x1="0" y1="0" x2="0" y2="13.97" x3="-8.89" y3="6.985" textsize="1.27" textratio="15" layer="47" dtype="vertical" unit="inch"/>
 <text x="-30.48" y="-7.62" size="1.27" layer="47" font="vector" ratio="15">Dimensions in inches</text>
 <text x="-12.7" y="2.54" size="1.27" layer="47" font="vector" ratio="15" rot="R90">(typical)</text>
+<wire x1="0" y1="72.39" x2="1.27" y2="73.66" width="0.2032" layer="20" curve="-90"/>
+<wire x1="43.18" y1="73.66" x2="44.45" y2="72.39" width="0.2032" layer="20" curve="-90"/>
+<wire x1="44.45" y1="1.27" x2="43.18" y2="0" width="0.2032" layer="20" curve="-90"/>
+<wire x1="0" y1="1.27" x2="1.27" y2="0" width="0.2032" layer="20" curve="90"/>
+<wire x1="1.27" y1="0" x2="1.524" y2="0" width="0.2032" layer="20"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -3126,10 +3131,14 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="SW2" pad="3"/>
 <contactref element="D2" pad="C"/>
 <polygon width="0.2032" layer="16" isolate="0.3048">
-<vertex x="0" y="73.66"/>
-<vertex x="44.45" y="73.66"/>
-<vertex x="44.45" y="0"/>
-<vertex x="0" y="0"/>
+<vertex x="1.27" y="73.66"/>
+<vertex x="43.18" y="73.66" curve="-90"/>
+<vertex x="44.45" y="72.39"/>
+<vertex x="44.45" y="1.27" curve="-90"/>
+<vertex x="43.18" y="0"/>
+<vertex x="1.27" y="0" curve="-90"/>
+<vertex x="0" y="1.27"/>
+<vertex x="0" y="72.39" curve="-90"/>
 </polygon>
 <contactref element="D9" pad="3"/>
 <contactref element="D8" pad="3"/>
@@ -3145,10 +3154,14 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="J15" pad="P3"/>
 <contactref element="J16" pad="P3"/>
 <polygon width="0.2032" layer="1">
-<vertex x="0" y="73.66"/>
-<vertex x="0" y="0"/>
-<vertex x="44.45" y="0"/>
-<vertex x="44.45" y="73.66"/>
+<vertex x="44.45" y="1.27"/>
+<vertex x="44.45" y="72.39" curve="90"/>
+<vertex x="43.18" y="73.66"/>
+<vertex x="1.27" y="73.66" curve="90"/>
+<vertex x="0" y="72.39"/>
+<vertex x="0" y="1.27" curve="90"/>
+<vertex x="1.27" y="0"/>
+<vertex x="43.18" y="0" curve="90"/>
 </polygon>
 <contactref element="D4" pad="3"/>
 <contactref element="J20" pad="TIP"/>
