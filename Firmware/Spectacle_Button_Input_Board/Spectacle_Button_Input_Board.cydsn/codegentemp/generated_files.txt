@@ -83,6 +83,10 @@
   <file name="C:\Dropbox\Projects\Spectacle\Spectacle_Button_Input_Board\Firmware\Spectacle_Button_Input_Board\Spectacle_Button_Input_Board.cydsn\codegentemp\B_8.h" value="HEADER;;;;;B_8" />
   <file name="C:\Dropbox\Projects\Spectacle\Spectacle_Button_Input_Board\Firmware\Spectacle_Button_Input_Board\Spectacle_Button_Input_Board.cydsn\codegentemp\B_8_aliases.h" value="HEADER;;;;;B_8" />
   <file name="C:\Dropbox\Projects\Spectacle\Spectacle_Button_Input_Board\Firmware\Spectacle_Button_Input_Board\Spectacle_Button_Input_Board.cydsn\codegentemp\B_8_PM.c" value="SOURCE_C;CortexM0p;;;;B_8" />
+  <file name="C:\Dropbox\Projects\Spectacle\Spectacle_Button_Input_Board\Firmware\Spectacle_Button_Input_Board\Spectacle_Button_Input_Board.cydsn\codegentemp\Pin_1.c" value="SOURCE_C;CortexM0p;;;;Pin_1" />
+  <file name="C:\Dropbox\Projects\Spectacle\Spectacle_Button_Input_Board\Firmware\Spectacle_Button_Input_Board\Spectacle_Button_Input_Board.cydsn\codegentemp\Pin_1.h" value="HEADER;;;;;Pin_1" />
+  <file name="C:\Dropbox\Projects\Spectacle\Spectacle_Button_Input_Board\Firmware\Spectacle_Button_Input_Board\Spectacle_Button_Input_Board.cydsn\codegentemp\Pin_1_aliases.h" value="HEADER;;;;;Pin_1" />
+  <file name="C:\Dropbox\Projects\Spectacle\Spectacle_Button_Input_Board\Firmware\Spectacle_Button_Input_Board\Spectacle_Button_Input_Board.cydsn\codegentemp\Pin_1_PM.c" value="SOURCE_C;CortexM0p;;;;Pin_1" />
   <file name="C:\Dropbox\Projects\Spectacle\Spectacle_Button_Input_Board\Firmware\Spectacle_Button_Input_Board\Spectacle_Button_Input_Board.cydsn\codegentemp\EZI2C_SCBCLK.c" value="SOURCE_C;CortexM0p;;;;EZI2C_SCBCLK" />
   <file name="C:\Dropbox\Projects\Spectacle\Spectacle_Button_Input_Board\Firmware\Spectacle_Button_Input_Board\Spectacle_Button_Input_Board.cydsn\codegentemp\EZI2C_SCBCLK.h" value="HEADER;;;;;EZI2C_SCBCLK" />
   <file name="C:\Dropbox\Projects\Spectacle\Spectacle_Button_Input_Board\Firmware\Spectacle_Button_Input_Board\Spectacle_Button_Input_Board.cydsn\codegentemp\EZI2C_sda.c" value="SOURCE_C;CortexM0p;;;;EZI2C_sda" />

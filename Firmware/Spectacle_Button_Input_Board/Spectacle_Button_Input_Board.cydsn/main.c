@@ -100,6 +100,14 @@ int main()
         I2C_OUT_EN_Write(1);
       }
       
+      for (i = 0; i < 9; i++)
+      {
+        if (btnRead[i]() == 0)
+        {
+          UART_UartPutChar(48+i);
+        }
+      }
+      
 
       // behaviors loop: now that we've collected our data from the
       // accelerometer and parsed it into usable chunks, we have to determine

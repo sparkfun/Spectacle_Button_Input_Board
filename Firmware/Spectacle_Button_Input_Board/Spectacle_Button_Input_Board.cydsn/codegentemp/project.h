@@ -1,7 +1,7 @@
 /*******************************************************************************
 * File Name: project.h
 * 
-* PSoC Creator  4.0
+* PSoC Creator  4.0 Update 1
 *
 * Description:
 * It contains references to all generated header files and should not be modified.
@@ -52,6 +52,8 @@
 #include "B_7_aliases.h"
 #include "B_8.h"
 #include "B_8_aliases.h"
+#include "Pin_1.h"
+#include "Pin_1_aliases.h"
 #include "EZI2C_SCBCLK.h"
 #include "EZI2C_sda.h"
 #include "EZI2C_sda_aliases.h"
