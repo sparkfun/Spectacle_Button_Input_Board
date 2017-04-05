@@ -1,5 +1,5 @@
-C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|5e2aaef9-755b-4d25-a06f-be561a81783a
-C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|404b1baa-3628-4229-b150-4dd57e534990
-C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|040342cf-a24a-4a99-a8df-8fa29b8dd489
-C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|94f58fd7-eba0-4f63-89c0-7661d7b35b26
-C:\Dropbox\Projects\Spectacle\Spectacle_Button_Input_Board\Firmware\Spectacle_Button_Input_Board\Spectacle_Button_Input_Board.cydsn\Spectacle_Button_Input_Board.cyprj|d7284807-77ab-4208-aa20-2ec66ae26b55
+C:\Dropbox\Projects\Spectacle\Spectacle_Button_Input_Board\Firmware\Spectacle_Button_Input_Board\Spectacle_Button_Input_Board.cydsn\Spectacle_Button_Input_Board.cyprj|361932b3-df44-48dd-ae1a-06193b0e84dd
+C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|c90ad9f1-f283-4826-b1d3-e42a2057daad
+C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|8b86b754-aa77-4d94-8a84-9f046f1655dd
+C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|78391eb2-cab2-4e5c-b216-c564188398b6
+C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|24dbdcae-a6ff-44c5-a114-58677b0c2f3d
